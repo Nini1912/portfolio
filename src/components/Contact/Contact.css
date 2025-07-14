@@ -1,0 +1,45 @@
+.contact-section {
+  padding: 6rem 0;
+  background-color: #1a2233;
+  color: white;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form .form-control {
+  background-color: #0f1624;
+  color: white;
+  border: 1px solid #333;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  box-shadow: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form .form-control:focus {
+  background-color: #0f1624;
+  color: white;
+  border-color: #8a2be2;
+  box-shadow: 0 0 15px rgba(224, 37, 149, 0.3), 0 0 15px rgba(138, 43, 226, 0.3);
+}
+
+.contact-form .form-control::placeholder {
+  color: #aaa;
+}
+
+.btn-submit {
+  background-image: linear-gradient(to right, #8a2be2, #e02595);
+  border: none;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  color: white;
+  background-size: 200% auto;
+  transition: background-position 0.5s;
+}
+
+.btn-submit:hover {
+  background-position: right center;
+  color: white;
+}

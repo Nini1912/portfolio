@@ -1,0 +1,26 @@
+.footer-section {
+  background-color: #0f1624;
+  padding: 2.5rem 0;
+  text-align: center;
+  color: #c0c0c0;
+}
+
+.social-icons {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: #c0c0c0;
+  font-size: 1.75rem;
+  margin: 0 0.75rem;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #fff;
+    text-shadow: 0 0 7px rgba(224, 37, 149, 0.8), 0 0 15px rgba(138, 43, 226, 0.8);
+  }
+
+.copyright-text {
+  margin: 0;
+  font-size: 0.9rem;
+}

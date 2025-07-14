@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap");
+
+.navbar {
+  background-color: #0f1624;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #2a3a55;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+  font-size: 20px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  background: linear-gradient(to right, #8a2be2, #e02595);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.portfolio-brand {
+  background: linear-gradient(to right, #8a2be2, #e02595);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 40px !important;
+  font-family: "Beau Rivage", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+@media (min-width: 992px) {
+  .navbar .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .navbar-nav .nav-link {
+    padding-right: 50px !important;
+  }
+}

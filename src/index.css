@@ -1,0 +1,20 @@
+.animate {
+  opacity: 0;
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.animate.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.animate-flow-from-left {
+  transform: translateX(-50px);
+}
+
+.animate-flow-from-right {
+  transform: translateX(50px);
+}
+
+.animate-flow-from-bottom {
+  transform: translateY(50px);
+}

@@ -1,0 +1,30 @@
+.about-section {
+    padding: 6rem 0;
+    background-color: #0F1624;
+    color: white;
+  }
+  
+  .section-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+  
+  .section-text {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #c0c0c0;
+  }
+  
+  .about-image {
+    max-width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 991.98px) {
+    .about-image {
+      margin-bottom: 3rem;
+    }
+  }
