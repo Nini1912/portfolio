@@ -1,15 +1,14 @@
-# Modern Developer Portfolio | React & Vite
+# Developer Portfolio | React & Vite
 
-<p align="center">
-  <img src="./screenshot.png" alt="Portfolio Screenshot" width="800"/>
-</p>
+<img width="1899" height="899" alt="image" src="https://github.com/user-attachments/assets/3ccc32de-2735-48a4-be65-dc08dbe356a2" />
+
 
 <p align="center">
   A dynamic and fully responsive personal portfolio website built with React, Vite, and Bootstrap. This project showcases projects, skills, and professional services through a sleek, modern dark theme with vibrant pink-to-purple gradient accents for a memorable user experience.
 </p>
 
 <p align="center">
-  <strong><a href="[YOUR_LIVE_DEMO_URL]">➡️ View Live Demo</a></strong>
+  <strong><a href="https://portfolionino.netlify.app/">➡️ View Live Demo</a></strong>
 </p>
 
 <p align="center">
